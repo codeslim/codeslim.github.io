@@ -4,11 +4,13 @@ $(document).ready(function() {
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top'
-    })
-    // Getout toggle menu on click
-    $('.nav a').on('click', function() {
-        $('.navbar-toggle').click() //bootstrap 3.x by Richard
     });
+    // Getout toggle menu on click
+    if (!$('.navbar-nav').is(':visible')) {
+        $('.nav a').on('click', function() {
+            $('.navbar-toggle').click();
+        });
+    }
 
     /*Url jumping*/
     $(function() {
