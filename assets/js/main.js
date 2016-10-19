@@ -5,6 +5,10 @@ $(document).ready(function() {
     $('body').scrollspy({
         target: '.navbar-fixed-top'
     })
+    // Getout toggle menu on click
+    $('.nav a').on('click', function() {
+        $('.navbar-toggle').click() //bootstrap 3.x by Richard
+    });
 
     /*Url jumping*/
     $(function() {
@@ -44,17 +48,15 @@ $(document).ready(function() {
     });
 
     // Animate and WOW Animation
-    var wow = new WOW(
-        {
-            offset: 50,
-            mobile: false,
-            live: true
-        }
-    );
+    var wow = new WOW({
+        offset: 50,
+        mobile: false,
+        live: true
+    });
     wow.init();
 
     // Prettyphoto Installation
-    $(document).ready(function(){
+    $(document).ready(function() {
         $("a[class^='prettyPhoto']").prettyPhoto();
     });
 
