@@ -3,10 +3,10 @@
   <channel>
     <title>CodeSlim</title>
     <description>Development of Web &amp; Mobile apps with NodeJS, Ruby on Rails, Meteor, ReactJS, Machine Leaning and more</description>
-    <link>http://codeslim.com.br//</link>
-    <atom:link href="http://codeslim.com.br//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Nov 2016 16:49:03 -0200</pubDate>
-    <lastBuildDate>Wed, 23 Nov 2016 16:49:03 -0200</lastBuildDate>
+    <link>https://codeslim.com.br//</link>
+    <atom:link href="https://codeslim.com.br//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 Nov 2016 17:59:28 -0200</pubDate>
+    <lastBuildDate>Wed, 23 Nov 2016 17:59:28 -0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Fri, 30 Sep 2016 02:07:35 -0300</pubDate>
-        <link>http://codeslim.com.br//jekyll/update/2016/09/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://codeslim.com.br//jekyll/update/2016/09/30/welcome-to-jekyll.html</guid>
+        <link>https://codeslim.com.br//jekyll/update/2016/09/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://codeslim.com.br//jekyll/update/2016/09/30/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
